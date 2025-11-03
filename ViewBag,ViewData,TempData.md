@@ -17,16 +17,15 @@ ViewBag	      Controller → View এ ডাটা পাঠানো (dynamic s
 TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flash Message)	          Next request পর্যন্ত
 </pre>
 
-✅ 1) ViewData
-📦 Data Structure
-  Dictionary type (key-value store)
+✅ 1) ViewData <br> 
+📦 Data Structure : <br>
+    - Dictionary type (key-value store) <br>
 
-✅ 2) ViewBag
-📦 Data Structure
-  Based on DynamicObject
-  Uses ViewData internally
+✅ 2) ViewBag <br> 
+📦 Data Structure : <br> 
+    - Based on DynamicObject <br> 
+    - Uses ViewData internally <br> 
 
-
-✅ 3) TempData
-📦 Data Structure
-  Backed by Session
+✅ 3) TempData  <br> 
+📦 Data Structure : <br> 
+    - Backed by Session
