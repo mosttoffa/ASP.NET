@@ -28,10 +28,10 @@ TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flas
     - Type: 
     
 ```cs
-public class ViewDataDictionary : Dictionary<string, object>
-
-```
+    public class ViewDataDictionary : Dictionary<string, object>
 - অর্থাৎ ViewData মূলত Dictionary<string, object> — key string, value object.
+```
+
 
 
 
