@@ -63,3 +63,17 @@ Product list পাঠানো	                        Model ✅
 ✅ 3) TempData  <br> 
 📦 Data Structure : <br> 
     - Backed by Session
+
+<br>
+🏆 <b>Senior-level Guideline</b> 
+<pre> 
+    Feature	                            Best Practice
+-------------------------------------------------------------------------------------------
+Tiny text, Page title	                   ✅ ViewBag
+Status message after submit	               ✅ TempData
+Dropdown dynamic data	                   ✅ ViewBag / ViewData / ViewModel (best)
+Table/list/grid	❌ ViewBag/ViewData —     ✅ Model
+Redirect + Message	                       ✅ TempData
+</pre>
+
+
