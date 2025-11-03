@@ -27,7 +27,7 @@ TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flas
     - Dictionary type (key-value store) <br>
     - Type: 
     
-```
+``` cs
     public class ViewDataDictionary : Dictionary<string, object>
 
 ```
