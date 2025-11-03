@@ -11,6 +11,7 @@ For large or structured data, we always use Model or ViewModel — not ViewBag o
 ✅ <b>ViewBag, ViewData, TempData — এগুলো কী? </b>
 <pre>
 নাম	                            কাজ	                                       Lifetime
+------------------------------------------------------------------------------------------------
 ViewData	    Controller → View এ ডাটা পাঠানো	                        শুধুমাত্র current request
 ViewBag	      Controller → View এ ডাটা পাঠানো (dynamic style)	        শুধুমাত্র current request
 TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flash Message)	          Next request পর্যন্ত
