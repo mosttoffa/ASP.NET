@@ -18,13 +18,10 @@ TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flas
 </pre>
 
 <p>
-    সহজ ভাষায় ভাবুন
-
-ViewData = ব্যাগ যেখানে key-value আকারে ডাটা রাখি (Dictionary)
-
-ViewBag = একই ব্যাগ, কিন্তু property আকারে access (dynamic)
-
-TempData = ছোট storage যা redirect এর পরেও একবার ডাটা ধরে রাখে (Session)
+✅ সহজ ভাষায় ভাবুন
+    ViewData = ব্যাগ যেখানে key-value আকারে ডাটা রাখি (Dictionary)
+    ViewBag = একই ব্যাগ, কিন্তু property আকারে access (dynamic)
+    TempData = ছোট storage যা redirect এর পরেও একবার ডাটা ধরে রাখে (Session)
 </p>
 
 ✅ 1) ViewBag <br> 
