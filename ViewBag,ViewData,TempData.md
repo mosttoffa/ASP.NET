@@ -1,6 +1,6 @@
 # ViewBag / ViewData / TempData
 
-
+✅
 <p>
 ViewBag, ViewData, and TempData are used to pass data between controller and views.
 ViewData and ViewBag work only for the current request, where ViewBag is dynamic and ViewData is dictionary-based.
@@ -18,7 +18,7 @@ TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flas
 </pre>
 
 <p>
-✅ সহজ ভাষায় ভাবুন <br>
+✅ সহজ ভাষায় ভাবুন - <br>
     ViewData = ব্যাগ যেখানে key-value আকারে ডাটা রাখি (Dictionary) <br>
     ViewBag = একই ব্যাগ, কিন্তু property আকারে access (dynamic) <br>
     TempData = ছোট storage যা redirect এর পরেও একবার ডাটা ধরে রাখে (Session)
@@ -65,7 +65,7 @@ Product list পাঠানো	                        Model ✅
     - Backed by Session
 
 <br>
-🏆 <b>Senior-level Guideline</b> 
+🏆 <b>Senior-level Guideline -</b> 
 <pre> 
     Feature	                            Best Practice
 -------------------------------------------------------------------------------------------
@@ -76,7 +76,7 @@ Table/list/grid	❌ ViewBag/ViewData —     ✅ Model
 Redirect + Message	                       ✅ TempData
 </pre>
 
-✅ <b>Quick Memory Trick </b>
+✅ <b>Quick Memory Trick - </b>
 ```cs
 ViewData = Dictionary (current request)
 ViewBag = Dynamic ViewData (current request)
