@@ -17,6 +17,16 @@ ViewBag	      Controller → View এ ডাটা পাঠানো (dynamic s
 TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flash Message)	          Next request পর্যন্ত
 </pre>
 
+<p>
+    সহজ ভাষায় ভাবুন
+
+ViewData = ব্যাগ যেখানে key-value আকারে ডাটা রাখি (Dictionary)
+
+ViewBag = একই ব্যাগ, কিন্তু property আকারে access (dynamic)
+
+TempData = ছোট storage যা redirect এর পরেও একবার ডাটা ধরে রাখে (Session)
+</p>
+
 ✅ 1) ViewBag <br> 
 📦 Data Structure : <br> 
     - Based on DynamicObject <br> 
@@ -30,8 +40,9 @@ TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flas
 ```cs
     public class ViewDataDictionary : Dictionary<string, object>
 ```
-    - অর্থাৎ ViewData মূলত Dictionary<string, object> — key string, value object.
-
+    - অর্থাৎ ViewData মূলত Dictionary<string, object> — key string, value object. 
+🔷 সুবিধা (Advantages): 
+    Simple key-value data pass - 
 
 
 ✅ 3) TempData  <br> 
