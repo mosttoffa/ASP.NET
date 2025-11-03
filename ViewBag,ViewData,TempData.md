@@ -8,7 +8,7 @@ TempData uses session internally and is used to carry messages across redirects.
 For large or structured data, we always use Model or ViewModel — not ViewBag or ViewData.
 </p>
 
-✅ ViewBag, ViewData, TempData — এগুলো কী?
+✅ <b>ViewBag, ViewData, TempData — এগুলো কী? </b>
 <pre>
 নাম	                            কাজ	                                       Lifetime
 ViewData	    Controller → View এ ডাটা পাঠানো	                        শুধুমাত্র current request
