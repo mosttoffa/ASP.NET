@@ -76,4 +76,13 @@ Table/list/grid	❌ ViewBag/ViewData —     ✅ Model
 Redirect + Message	                       ✅ TempData
 </pre>
 
+✅ <b>Quick Memory Trick </b>
+```cs
+ViewData = Dictionary (current request)
+ViewBag = Dynamic ViewData (current request)
+TempData = Session (next request only)
+
+```
+
+
 
