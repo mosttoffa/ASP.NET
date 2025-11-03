@@ -32,6 +32,16 @@ View page এ ছোট ডাটা পাঠাতে	            ViewData / V
 Redirect এর পরে message দেখাতে	        TempData
 বড় ডাটা (list/model) পাঠাতে	            Model/ViewModel ✅ Best way
 </pre> 
+✅ Real Life Example : <br>
+<pre> 
+        Scenario	                             Tool
+------------------------------------------------------------------------
+Page Title পাঠানো	                        ViewBag.Title
+Success message after Save → redirect	    TempData["Success"]
+Dropdown data পাঠানো (কম ডাটা হলে)	        ViewBag.CategoryList
+Product list পাঠানো	                        Model ✅
+</pre>
+
 ✅ 1) ViewBag <br> 
 📦 Data Structure : <br> 
     - Based on DynamicObject <br> 
