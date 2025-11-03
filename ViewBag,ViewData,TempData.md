@@ -7,8 +7,9 @@ ViewData and ViewBag work only for the current request, where ViewBag is dynamic
 TempData uses session internally and is used to carry messages across redirects.
 For large or structured data, we always use Model or ViewModel — not ViewBag or ViewData.
 </p>
-<pre>
+
 ✅ ViewBag, ViewData, TempData — এগুলো কী?
+<pre>
 নাম	                            কাজ	                                       Lifetime
 ViewData	    Controller → View এ ডাটা পাঠানো	                        শুধুমাত্র current request
 ViewBag	      Controller → View এ ডাটা পাঠানো (dynamic style)	        শুধুমাত্র current request
