@@ -26,10 +26,11 @@ TempData	    Redirect এর পরে ডাটা ধরে রাখা (Flas
 📦 Data Structure : <br>
     - Dictionary type (key-value store) <br>
     - Type: 
-
+    
 ```
     public class ViewDataDictionary : Dictionary<string, object>
-        ```
+
+```
     - অর্থাৎ ViewData মূলত Dictionary<string, object> — key string, value object.
 
 
